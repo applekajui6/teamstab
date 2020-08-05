@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1a85e47f-b31c-4c79-acea-970371c4be92",
+  "alias": "MyFirstTeamsTabWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsTab"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "MyFirstTeamsTab"
+      },
+      "description": {
+        "default": "MyFirstTeamsTab description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "MyFirstTeamsTab"
+      }
+    }
+  ]
+}
